@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Пользователь</title>
+</head>
+<body>
+<p th:text="${user.getFirstName()}">
+<p th:text="${user.getLastName()}">
+<p th:text="${user.getMail()}">
+<br>
+<a th:href=/users">Возврат</a>
+
+</body>
+</html>
